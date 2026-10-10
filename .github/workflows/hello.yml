@@ -1,0 +1,16 @@
+
+name: TDS GitHub Actions
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 23f2003251@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
